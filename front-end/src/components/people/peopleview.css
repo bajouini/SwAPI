@@ -1,0 +1,22 @@
+.People {
+  text-align: left;
+}
+
+.people-header {
+  background-image: url("../../source/stars.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.people-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+/* .MuiCard-root{
+  width: 50vmin;
+} */

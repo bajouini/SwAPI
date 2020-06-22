@@ -1,0 +1,19 @@
+.Planet {
+    text-align: left;
+  }
+  
+  .planet-header {
+    background-image: url("../../source/stars.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    font-size: calc(15px + 2vmin);
+    color: white;
+  }
+  
+  .planet-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
